@@ -1,0 +1,26 @@
+*{
+    color: #051537;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img:not(.logo){
+    width: 230px;
+    height: 180px;
+}
+.container{
+    width: 300px;
+    height: 470px;
+}
+.downbox{
+    padding: 8px;
+}
+/* 
+
+header{
+    .welcome{
+        width: 100%;
+        background-image: url(/img/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+        background-size: cover;
+    }
+} */
