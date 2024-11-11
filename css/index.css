@@ -69,6 +69,20 @@ img:not(.logo){
         margin: 2.5rem;
         text-align: justify;
     }
+    .btn{
+        font-weight: 700;
+        border: #051537 solid 2px;
+        border-radius: 5px;
+        padding: 10px;
+        transition: all .3s ease-in-out;
+    }
+    .btn:hover{
+        color: #fff;
+        background-color: #051537;
+    }
+    .btn-center{
+        margin-top: 20px;
+    }
 }
 
 
@@ -90,6 +104,7 @@ img:not(.logo){
     }
     .container:hover{
         transform: translateY(-10px);
+        cursor: pointer;
     }
     .containers{
         width: 670px;
