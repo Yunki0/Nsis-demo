@@ -1,4 +1,4 @@
-@import url(styles.css);
+@import url(loader.css);
 
 #loader{
     background: var(--white);
@@ -45,7 +45,7 @@
 .no-scroll{
     overflow: hidden;
 }
-@media screen and (max-width: 480px){
+/* @media screen and (max-width: 480px){
     :root{
         --size: 50px;
     }
@@ -87,4 +87,4 @@
     @keyframes shadow {
         50% {transform: scale(1.2,1);}
     }
-}
+} */
